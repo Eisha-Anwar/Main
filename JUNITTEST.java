@@ -1,17 +1,7 @@
 package array;
 
 public class JUNITTEST {
-	public int ArrayMAX(int[] intArray ) {
 
-        int maxNum = intArray[1];
-
-        for (int j : intArray) {
-            if (j > maxNum)
-                maxNum = j;
-        }
-
-		return maxNum;
-    }
 	
 	
 	public int ArrayMIN(int[] intArray) {
